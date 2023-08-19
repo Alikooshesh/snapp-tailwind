@@ -1,12 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="font-['Vazirmatn']">
+    <header class="w-full h-[64px] md:h-[96px] px-[16px] md:px-[37px] flex items-center justify-between gap-[16px]">
+        <div class="w-[90px] order-1 lg:order-[-1]">
+            <img class="w-full" src="https://web-cdn.snapp.ir/snapp-website/icons/snappTextLogo.svg">
+        </div>
+
+        <div class="lg:hidden w-[24px] h-[24px]">
+            <svg class="w-full h-full" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+
+        <nav class="hidden lg:flex w-full gap-[16px] text-[14px] text-gray-600">
+            <a href="#">فرصت های شغلی</a>
+            <a href="#">بلاگ</a>
+            <a href="#">باشگاه رانندگان</a>
+            <a href="#">ثبت نام راننده اسنپ</a>
+            <a href="#">پنل سازمانی</a>
+            <a href="#">درباره ما</a>
+            <a href="#">تماس با ما</a>
+        </nav>
+    </header>
 </body>
 </html>
